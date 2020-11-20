@@ -11,6 +11,7 @@ double fahrenheit(double celsius)
 
 int main()
 {
+//Some code to make it an alpha version.
 cout << "0 c degree is " << fixed << setprecision(2) << fahrenheit(0) << " f degree." << endl;
 cout << "0 f degree is " << fixed << setprecision(2) << celsius(0) << " f degree." << endl;
 return 0;
