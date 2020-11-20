@@ -11,7 +11,7 @@ double fahrenheit(double celsius)
 
 int main()
 {
-cout << "0 c degree is " << fahrenheit(0) << " f degree." << endl;
-cout << "0 f degree is " << celsius(0) << " f degree." << endl;
+cout << "0 c degree is " << fixed << setprecision(2) << fahrenheit(0) << " f degree." << endl;
+cout << "0 f degree is " << fixed << setprecision(2) << celsius(0) << " f degree." << endl;
 return 0;
 }
